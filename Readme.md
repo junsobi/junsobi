@@ -12,7 +12,7 @@ const metadata: Metadata = {
     description: '반가워요 👋',
     url: 'https://www.junsob.kim',
     keywords: ['frontend', 'frontend developer', 'portfolio', 'junsobi'],
-    language: 'kor',
+    language: 'ko',
     charset: 'UTF-8'
   }
 };
