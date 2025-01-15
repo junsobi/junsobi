@@ -1,6 +1,21 @@
+```typescript
+import { Metadata } from '@/types/metadata';
 
-<div>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=junsobi&show_icons=true&theme=default&include_all_commits=true&count_private=true"/>
-  
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=junsobi&layout=compact"/>
-</div>
+const metadata: Metadata = {
+  author: {
+    name: 'junsobi',
+    username: '@junsobi',
+    label: 'Frontend Developer'
+  },
+  site: {
+    title: '@junsobi Portfolio',
+    description: '반가워요 👋',
+    url: 'https://www.junsob.kim',
+    keywords: ['frontend', 'frontend developer', 'portfolio', 'junsobi'],
+    language: 'kor',
+    charset: 'UTF-8'
+  }
+};
+
+export { metadata };
+```
