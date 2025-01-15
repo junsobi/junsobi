@@ -13,7 +13,6 @@ const metadata: Metadata = {
     url: 'https://www.junsob.kim',
     keywords: ['frontend', 'frontend developer', 'portfolio', 'junsobi'],
     language: 'ko',
-    charset: 'UTF-8'
   }
 };
 
